@@ -1,0 +1,14 @@
+# 중간 산출물 (다시 만들 수 있음)
+assets/audio/*_fast.wav
+assets/audio/quiz1_a.wav
+assets/audio/quiz1_b.wav
+assets/audio/_sil_*.wav
+assets/audio/_concat.txt
+build/raw_*.wav
+build/pv_*.jpg
+build/sp_*.jpg
+build/contact_*.jpg
+build/ep2_built.html
+build/ep2_short_*.html
+assets/audio/narration_full.wav
+build/mix_final.wav
