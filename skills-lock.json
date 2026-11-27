@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "skills": {
+    "muapi-ad-creative": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-ad-creative/SKILL.md",
+      "computedHash": "406f6b213ef29199ade28bc88d26420a46b8811a22801f8882cd55b239bbcfa2"
+    },
+    "muapi-ai-clipping": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-ai-clipping/SKILL.md",
+      "computedHash": "ee7bef456b1892055adad9f7288de17f39d2156bb371cdf13ad8b8d6bb56990e"
+    },
+    "muapi-cinema-director": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-cinema-director/SKILL.md",
+      "computedHash": "3700cc00df42db226ecb7ae77131bfebfbe3b35dd9f5a3c9fa306e9938625be2"
+    },
+    "muapi-instagram-post": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-instagram-post/SKILL.md",
+      "computedHash": "82344f1dcb86395d5171087e40ce1427f7d36a9b3a6245a3c28158812d524e44"
+    },
+    "muapi-logo-creator": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-logo-creator/SKILL.md",
+      "computedHash": "8bf3a6243d2c3d7165e21fa5805e6b00b3d6092a6de8b271aa3077a41b861a22"
+    },
+    "muapi-nano-banana": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-nano-banana/SKILL.md",
+      "computedHash": "c00509de667479f795f150377962a56e2c23aba4b2ea1b52ba763a6a06a98983"
+    },
+    "muapi-product-video-ad-maker": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-product-video-ad-maker/SKILL.md",
+      "computedHash": "8c04b90569779ad487042b40f591865100bfd77b45e1265865b8f8ddba8a76e6"
+    },
+    "muapi-seedance-2": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-seedance-2/SKILL.md",
+      "computedHash": "daf8cfc13022307fb248930eb7bfb43669137b26862b5a1fe54b989930d9df72"
+    },
+    "muapi-social-media-video": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-social-media-video/SKILL.md",
+      "computedHash": "3a5890fb56b4eaa7825aca1df7b530196510b6fabe974aca5a372eea14ab1876"
+    },
+    "muapi-ugc-video-factory": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-ugc-video-factory/SKILL.md",
+      "computedHash": "fadb8a0abfdb12a31f778cdc0f40d230164a229a1a3e2348aa2c8ed863f918c3"
+    },
+    "muapi-ui-design": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-ui-design/SKILL.md",
+      "computedHash": "8ab10cacbe25093f44f57bfccf7558971b42011d630ac55f2b71a5bb9afa5c39"
+    },
+    "muapi-youtube-shorts": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-youtube-shorts/SKILL.md",
+      "computedHash": "9bd2c9357e84204ef8d49921792b9880d14ca22a0eef982144c6fe8cba371688"
+    },
+    "muapi-youtube-thumbnail": {
+      "source": "SamurAIGPT/Generative-Media-Skills",
+      "commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "sourceType": "github",
+      "skillPath": ".opencode/skills/muapi-youtube-thumbnail/SKILL.md",
+      "computedHash": "ba97430feaaaaa16d7d5c51da11928bd7712c53504c1c0134241475cdaffb951"
+    }
+  }
+}
