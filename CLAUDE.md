@@ -25,6 +25,11 @@
   - 무료인 것: 로컬 모델만 (이미지: 내장 sd.cpp로 SD 1.5/SDXL/Z-Image, 영상: Wan2GP 별도 설치 + 고성능 GPU 필요).
   - 그 외 모델(Kling, Veo, Flux 등)은 MuAPI를 거치는 유료 생성이다. 무료 단계에서 쓰려면 사용자에게 비용을 먼저 확인한다.
 - Claude의 역할: 장면별 이미지·영상 프롬프트, 스타일·캐릭터 레퍼런스 시트 지침 작성 → 사용자가 생성한 파일을 받아 편집·자막·음성 싱크·합성(OpenMontage/FFmpeg/HyperFrames)과 검수.
+- 실사 혼합 원칙: AI 이미지·영상만 쓰지 않고, 조사해서 받은 실제 사진·영상·공식 문서를 함께 넣어 AI 느낌을 최소화한다.
+  - 우선 출처(상업 이용 가능): 미국 정부 저작물(FAA, eCFR, Federal Register — 퍼블릭 도메인), Wikimedia Commons의 Public domain/CC0/CC BY(CC BY-SA는 동일조건 조건 때문에 피한다), Pexels·Pixabay(무료 API 키 필요).
+  - 다른 유튜버·방송·뉴스 영상은 쓰지 않는다(재사용 콘텐츠 정책). 출처와 라이선스는 설명란에 기록한다.
+  - 사고·재난 장면은 실제 영상으로 연출하지 않는다(실제 사건의 증거처럼 보이지 않게).
+- 클라우드 `ruin` 환경 허용 호스트: api.muapi.ai(키 저장됨, 잔액 확인 후 사용), commons/upload.wikimedia.org, www.ecfr.gov, www.faa.gov, api/images/videos.pexels.com, pixabay.com, cdn.pixabay.com. Wikimedia는 요청이 많으면 429로 막히니 천천히 받는다.
 - 실사처럼 보이는 AI 이미지·영상을 쓴 영상은 업로드 시 '변경되거나 합성된 콘텐츠'를 '예'로 표시한다.
 
 ## 채널 확정 사항 (다시 묻지 않는다)
