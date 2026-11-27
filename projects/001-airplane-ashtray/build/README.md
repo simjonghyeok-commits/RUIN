@@ -15,3 +15,6 @@
 - 대본: script_v1.1_playful.txt / 모델 eleven_multilingual_v2, ko, stability 0.4, similarity 0.75, style 0.35, speed 1.2
 - 목소리: Jiae(3TIJuP53f43TXi08ZJE1), Taehyung(m3gJBS8OofDJfycyA2Ip) — /with-timestamps 글자 타이밍으로 앵커(plan.json) 계산
 - 렌더: node render2.js index_<voice>.html <dur> fr_<voice> → ffmpeg 합성 (효과음 시각은 plan.json의 sfx)
+
+## 업로드본(ep001_UPLOAD_jisun_v4.mp4)
+- v1.2 Jisun v4 영상에 내레이션 0.9배 믹스를 다시 입힘. 기준 게인 +8.13dB(내레이션 1.0배 믹스의 loudnorm 측정값) → 최종 -15.2 LUFS, 피크 -1.4 dBFS.
