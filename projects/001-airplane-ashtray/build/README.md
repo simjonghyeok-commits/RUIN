@@ -10,3 +10,8 @@
 - index.html의 A 배열이 원래 타임라인(초안) → 내레이션 실제 타이밍으로 구간별 매핑한다.
 - 효과음 시각: ding 1.28, scratch 2.65, tok 7.63/9.05/10.45, buzz 13.93, thump 15.48, dingdong 17.95, fire 22.58, thump 24.4, chime 30.79 (각 0.6배 볼륨)
 - 마스터: loudnorm I=-14 LUFS, TP -1.5
+
+## v1.1 (개구쟁이 톤, ElevenLabs Starter)
+- 대본: script_v1.1_playful.txt / 모델 eleven_multilingual_v2, ko, stability 0.4, similarity 0.75, style 0.35, speed 1.2
+- 목소리: Jiae(3TIJuP53f43TXi08ZJE1), Taehyung(m3gJBS8OofDJfycyA2Ip) — /with-timestamps 글자 타이밍으로 앵커(plan.json) 계산
+- 렌더: node render2.js index_<voice>.html <dur> fr_<voice> → ffmpeg 합성 (효과음 시각은 plan.json의 sfx)
