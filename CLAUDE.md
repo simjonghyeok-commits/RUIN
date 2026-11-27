@@ -38,7 +38,9 @@
 - 끝 멘트: "○○○도… 괜히 그런 게 아니야." / 제목 형식: "○○은 왜 ○○할까?"
 - 브랜드: 노랑 #FFD84D, 검정 #141414 / 제목 Black Han Sans, 본문 Noto Sans KR
 - 제작 방식: 직접 만든 그래픽 + AI 이미지·영상 + 무료 스톡 영상, 내레이션은 AI 음성(TTS)
-- TTS: ElevenLabs로 확정(CapCut은 부자연스러워 사용 중단). 키는 `ruin` 환경 network secret(헤더 xi-api-key). 모델 eleven_multilingual_v2, language_code ko.
-  - 무료 플랜: 월 10,000자, API로 보이스 라이브러리(한국어 원어민) 목소리 사용 불가 → 기본(premade) 목소리만 가능. 무료 플랜은 상업적 이용 제한 가능성이 있어 수익화 전 유료(Starter 이상) 전환 검토.
+- TTS: ElevenLabs Starter(유료)로 확정. 키는 `ruin` 환경 network secret(헤더 xi-api-key).
+  - 채널 목소리: **Jiae - Friendly Korean Creator** (voice_id 3TIJuP53f43TXi08ZJE1, 보이스 라이브러리 professional 목소리, 추가 요금 없음 rate 1.0, 소유자가 내려도 730일 사용 보장)
+  - 설정: eleven_multilingual_v2, language_code ko, stability 0.4, similarity 0.75, style 0.35, speed 1.2. `/with-timestamps`로 글자 타이밍을 받아 자막·화면 싱크에 쓴다.
+  - 대본 말투: 개구쟁이 크리에이터 톤("어? 이거 뭐야?", "땡!", 의성어). 쇼츠 내레이션 목표 약 30~33초.
 - 업로드 기본설정: 카테고리 교육, 언어 한국어, 아동용 아님
 - 첫 영상 주제: 비행기 화장실엔 왜 아직 재떨이가 있을까? (14 CFR 25.853 근거. Varig 820편 화재 원인은 담배로 단정하지 않는다)
