@@ -17,4 +17,4 @@
 - 렌더: node render2.js index_<voice>.html <dur> fr_<voice> → ffmpeg 합성 (효과음 시각은 plan.json의 sfx)
 
 ## 업로드본(ep001_UPLOAD_jisun_v4.mp4)
-- v1.2 Jisun v4 영상에 내레이션 0.9배 믹스를 다시 입힘. 기준 게인 +8.13dB(내레이션 1.0배 믹스의 loudnorm 측정값) → 최종 -15.2 LUFS, 피크 -1.4 dBFS.
+- v1.2 Jisun v4 영상에 내레이션 0.765배 믹스를 다시 입힘. 기준 게인 +8.13dB(내레이션 1.0배 믹스의 loudnorm 측정값). 내레이션 0.765배로 최종 갱신.
