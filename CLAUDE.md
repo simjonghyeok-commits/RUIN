@@ -38,9 +38,13 @@
 - 끝 멘트: "○○○도… 괜히 그런 게 아니야." / 제목 형식: "○○은 왜 ○○할까?"
 - 브랜드: 노랑 #FFD84D, 검정 #141414 / 제목 Black Han Sans, 본문 Noto Sans KR
 - 제작 방식: 직접 만든 그래픽 + AI 이미지·영상 + 무료 스톡 영상, 내레이션은 AI 음성(TTS)
-- TTS: ElevenLabs Starter(유료)로 확정. 키는 `ruin` 환경 network secret(헤더 xi-api-key).
-  - 채널 목소리: **Jiae - Friendly Korean Creator** (voice_id 3TIJuP53f43TXi08ZJE1, 보이스 라이브러리 professional 목소리, 추가 요금 없음 rate 1.0, 소유자가 내려도 730일 사용 보장)
-  - 설정: eleven_multilingual_v2, language_code ko, stability 0.4, similarity 0.75, style 0.35, speed 1.2. `/with-timestamps`로 글자 타이밍을 받아 자막·화면 싱크에 쓴다.
-  - 대본 말투: 개구쟁이 크리에이터 톤("어? 이거 뭐야?", "땡!", 의성어). 쇼츠 내레이션 목표 약 30~33초.
+- TTS: ElevenLabs Starter(유료)로 확정. 장면별 감정 연기 설계가 기본 제작 지침이다. 키는 `ruin` 환경 network secret(헤더 xi-api-key).
+  - 채널 목소리: **Jisun - Warm & Friendly Korean** (voice_id 7Tms2JpTU4QYeCNp0Gtn, 보이스 라이브러리, 추가 요금 없음 rate 1.0)
+    - ⚠️ 소유자가 공개를 내리면 사용 보장이 30일뿐이다. 매 영상 음성 원본(mp3)을 저장소에 보관하고, 예비 목소리는 Jiae(3TIJuP53f43TXi08ZJE1, 730일 보장)로 둔다.
+  - 모델: **eleven_v4**, language_code ko. Stability 기본값(0.5)부터, Similarity 0.8(Jisun 음색 유지). Style·Speaker Boost·Speed는 v4에서 쓰지 않는다.
+  - 감정 연출은 대본 안 Audio Tags로 장면별 설계한다: [curious] [surprised] [excited] [playful] [mischievously] [warmly] [chuckles] [short pause] [dramatically] [serious]
+  - 후처리 속도 1.25배속(ffmpeg atempo=1.25). `/with-timestamps` 글자 타이밍을 1.25로 나눠 자막·화면 싱크에 쓴다.
+  - Jisun은 말이 느린 편이라(태그 포함 원본 약 43초 → 1.25배 후 약 34초) 쇼츠 목표(30~33초)를 넘기 쉽다. 대본은 200음절 안팎으로 유지한다.
+  - 대본 말투: 개구쟁이 크리에이터 톤("어? 이거 뭐야?", "땡!", 의성어).
 - 업로드 기본설정: 카테고리 교육, 언어 한국어, 아동용 아님
 - 첫 영상 주제: 비행기 화장실엔 왜 아직 재떨이가 있을까? (14 CFR 25.853 근거. Varig 820편 화재 원인은 담배로 단정하지 않는다)

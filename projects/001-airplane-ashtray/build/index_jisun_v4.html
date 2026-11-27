@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../brand/node_modules/@fontsource/black-han-sans/index.css">
+<link rel="stylesheet" href="../brand/node_modules/@fontsource/noto-sans-kr/700.css">
+<link rel="stylesheet" href="../brand/node_modules/@fontsource/noto-sans-kr/900.css">
+<style>
+:root{--y:#FFD84D;--k:#141414;--w:#fff}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--k)}
+.bh{font-family:"Black Han Sans",sans-serif;font-weight:400}
+.nt{font-family:"Noto Sans KR",sans-serif;font-weight:900}
+.scene{position:absolute;inset:0;opacity:0;overflow:hidden}
+.photo{position:absolute;inset:0;background-size:cover;background-position:center;transform-origin:50% 50%}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,20,20,.55) 0%,rgba(20,20,20,.05) 35%,rgba(20,20,20,.05) 55%,rgba(20,20,20,.75) 100%)}
+#cap{position:absolute;left:60px;right:60px;top:1180px;text-align:center;z-index:50}
+#cap .l{display:inline-block;font-size:60px;line-height:1.25;white-space:nowrap;color:var(--w);padding:6px 22px;margin:6px 0;background:rgba(20,20,20,.82);border-radius:16px;letter-spacing:-1px}
+#cap .l b{color:var(--y);font-weight:900}
+.tag{position:absolute;font-size:56px;background:var(--y);color:var(--k);padding:8px 26px;border-radius:14px;border:5px solid var(--k)}
+.card{position:absolute;left:110px;width:860px;height:150px;border-radius:28px;background:var(--y);border:7px solid var(--k);display:flex;align-items:center;padding-left:40px;box-shadow:0 12px 0 var(--k)}
+.card .n{width:96px;height:96px;border-radius:50%;background:var(--k);color:var(--y);font-size:64px;display:flex;align-items:center;justify-content:center;margin-right:34px}
+.card .t{font-size:70px;color:var(--k);letter-spacing:-1px}
+.logo{position:absolute;width:150px;height:150px;border-radius:50%;background:var(--y);border:7px solid var(--k);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.logo .q{font-size:66px;line-height:.85;color:var(--k)} .logo .g{font-size:32px;color:var(--k)}
+.reg{position:absolute;left:70px;right:70px;background:#fff;border-radius:24px;padding:40px 44px;border:6px solid var(--k)}
+.reg .src{font-family:"Noto Sans KR";font-weight:700;font-size:34px;color:#555;margin-bottom:18px}
+.reg .q{font-family:Georgia,'Times New Roman',serif;font-size:40px;line-height:1.35;color:#222;margin:14px 0}
+.reg mark{background:var(--y);padding:0 4px}
+.reg .ko{font-family:"Noto Sans KR";font-weight:700;font-size:36px;color:var(--k);border-left:8px solid var(--y);padding-left:16px;margin-top:6px}
+</style></head><body>
+
+<!-- S1 / S8: real door photo -->
+<div class="scene" id="s1"><div class="photo" id="p1" style="background-image:url('door_latch_cc0.jpg')"></div><div class="shade"></div>
+  <div class="bh" id="s1q" style="position:absolute;left:0;right:0;top:300px;text-align:center;font-size:330px;color:var(--y);-webkit-text-stroke:10px var(--k)">?</div>
+</div>
+
+<!-- S2: real no-smoking sign vs ashtray illustration -->
+<div class="scene" id="s2" style="background:var(--y)">
+  <div style="position:absolute;left:60px;top:250px;width:450px;height:620px;border-radius:30px;overflow:hidden;border:8px solid var(--k)">
+    <div id="p2" style="position:absolute;inset:0;background-image:url('sign_crop.jpg');background-size:cover;background-position:center"></div>
+  </div>
+  <div class="tag bh" style="left:150px;top:900px">금연</div><div id="ring" style="position:absolute;left:322px;top:318px;width:200px;height:200px;border-radius:50%;border:10px solid #D7263D"></div>
+  <div class="bh" id="s2vs" style="position:absolute;left:470px;top:470px;font-size:120px;color:var(--k)">↔</div>
+  <div style="position:absolute;left:570px;top:250px;width:450px;height:620px;border-radius:30px;background:#fff;border:8px solid var(--k);display:flex;align-items:center;justify-content:center" id="s2r">
+    <svg width="330" height="420" viewBox="0 0 330 420" id="ashtray">
+      <rect x="20" y="20" width="290" height="380" rx="26" fill="#E9E9E9" stroke="#141414" stroke-width="10"/>
+      <rect x="60" y="120" width="210" height="200" rx="18" fill="#C9CDD2" stroke="#141414" stroke-width="10"/>
+      <rect x="80" y="140" width="170" height="70" rx="10" fill="#9AA1A9" stroke="#141414" stroke-width="8"/>
+      <circle cx="165" cy="260" r="16" fill="#141414"/>
+      <rect x="40" y="345" width="250" height="26" rx="10" fill="#FFD84D" stroke="#141414" stroke-width="8"/>
+    </svg>
+  </div>
+  <div class="tag bh" style="left:690px;top:900px">재떨이</div>
+</div>
+
+<!-- S3-S5: quiz -->
+<div class="scene" id="s3" style="background:var(--y)">
+  <div class="bh" style="position:absolute;left:0;right:0;top:200px;text-align:center;font-size:120px;color:var(--k)">왜 있을까요?</div>
+  <div class="card" id="c1" style="top:430px"><div class="n bh">1</div><div class="t bh">옛날 흔적</div></div>
+  <div class="card" id="c2" style="top:640px"><div class="n bh">2</div><div class="t bh">그냥 장식</div></div>
+  <div class="card" id="c3" style="top:850px"><div class="n bh">3</div><div class="t bh">안전장치</div></div>
+  <div class="bh" id="stamp" style="position:absolute;left:560px;top:420px;font-size:56px;color:#D7263D;border:8px solid #D7263D;border-radius:14px;padding:4px 18px;background:rgba(255,255,255,.85)">지금 규정에도 있음</div>
+  <div class="bh" id="ans" style="position:absolute;left:0;right:0;top:1040px;text-align:center;font-size:110px;color:var(--k)">정답 3번!</div>
+</div>
+
+<!-- S6: butt -> bin -> small flame (illustration) -->
+<div class="scene" id="s6" style="background:#fff">
+  <svg width="1080" height="1920" viewBox="0 0 1080 1920" style="position:absolute;inset:0">
+    <g id="butt"><rect x="-70" y="-14" width="140" height="28" rx="12" fill="#fff" stroke="#141414" stroke-width="8"/><rect x="20" y="-14" width="50" height="28" rx="10" fill="#E8A33D" stroke="#141414" stroke-width="8"/><circle cx="-72" cy="0" r="10" fill="#FF6B35"/></g>
+    <g transform="translate(540,820)">
+      <path d="M-200,-180 L200,-180 L165,250 L-165,250 Z" fill="#9AA1A9" stroke="#141414" stroke-width="12" stroke-linejoin="round"/>
+      <g fill="#fff" stroke="#141414" stroke-width="9">
+        <path d="M-170,-180 q40,-70 95,-25 q30,-60 90,-10 q45,-55 95,5 q20,10 0,30 L-170,-160 Z"/>
+      </g>
+      <g id="flame" transform="translate(-10,-215)">
+        <path d="M0,-150 C40,-90 75,-60 55,-10 C45,20 20,30 0,30 C-25,30 -50,15 -55,-15 C-60,-55 -25,-70 -15,-110 C-5,-80 10,-80 0,-150 Z" fill="#FF6B35" stroke="#141414" stroke-width="9"/>
+        <path d="M0,-60 C20,-35 28,-15 18,5 C10,18 -12,18 -20,4 C-28,-12 -12,-30 0,-60 Z" fill="#FFD84D"/>
+      </g>
+      <g id="smoke" fill="none" stroke="#9AA1A9" stroke-width="14" stroke-linecap="round"><path d="M-10,-380 c-40,-50 40,-80 0,-140 c-30,-45 25,-70 10,-110"/></g>
+    </g>
+  </svg>
+  <div class="bh" id="warn" style="position:absolute;left:0;right:0;top:180px;text-align:center;font-size:150px;color:#D7263D">!</div>
+</div>
+
+<!-- S7: real regulation text -->
+<div class="scene" id="s7" style="background:var(--k)">
+  <div class="bh" style="position:absolute;left:0;right:0;top:170px;text-align:center;font-size:84px;color:var(--y)">미국 연방항공규정</div>
+  <div class="reg" id="regbox" style="top:330px">
+    <div class="src">14 CFR §25.853 · eCFR 현행 조문</div>
+    <div class="q" id="rf">(f) <mark>Smoking is not allowed in lavatories.</mark></div>
+    <div class="ko">화장실 흡연 금지</div>
+    <div class="q" id="rg" style="margin-top:30px">(g) Regardless of whether smoking is allowed … <mark>lavatories must have self-contained, removable ashtrays</mark> … on or near the entry side of each lavatory door</div>
+    <div class="ko">화장실 문 쪽에 재떨이 필수</div>
+  </div>
+</div>
+
+<!-- S8 end overlay -->
+<div class="scene" id="s8"><div class="photo" id="p8" style="background-image:url('door_latch_cc0.jpg')"></div><div class="shade" style="background:rgba(20,20,20,.55)"></div>
+  <div class="bh" id="endq" style="position:absolute;left:0;right:0;top:330px;text-align:center;font-size:120px;color:var(--y)">몇 번 고르셨어요?</div>
+  <div id="endlogo" style="position:absolute;left:0;right:0;top:560px;display:flex;flex-direction:column;align-items:center">
+    <div class="logo" style="position:relative;width:200px;height:200px"><div class="q bh" style="font-size:90px">?</div><div class="g bh" style="font-size:42px">괜히</div></div>
+    <div class="bh" style="margin-top:30px;font-size:96px;color:#fff">괜히 그런 게 아니야</div>
+  </div>
+</div>
+
+<div id="cap" class="nt"></div>
+<div class="logo" id="wm" style="left:880px;top:90px;width:120px;height:120px;border-width:6px"><div class="q bh" style="font-size:52px">?</div><div class="g bh" style="font-size:26px">괜히</div></div>
+
+<script>
+const CAPS=[
+ [0.0,3.2,["어? 비행기 화장실 문 옆에…","<b>이거 뭐야?</b> 본 적 있죠?"]],
+ [3.2,7.2,["기내는 전부 <b>금연</b>인데…","<b>재떨이</b>가 떡하니 달려 있어요."]],
+ [7.2,8.4,["왜 있을까요?","셋 중에 골라 봐요!"]],
+ [8.4,9.6,["1번, 옛날 흔적."]],[9.6,10.8,["2번, 그냥 장식."]],[10.8,12.2,["3번, 안전장치."]],
+ [12.2,13.4,["옛날엔 기내에서","담배를 피웠으니까 <b>1번</b> 같죠?"]],
+ [13.4,17.2,["<b>땡!</b> 지금 규정에도","그대로 있거든요."]],
+ [17.7,19.2,["<b>정답은, 3번!</b>"]],
+ [19.2,21.2,["금지해도 꼭 몰래","피우는 사람이 있어서요."]],
+ [21.2,23.2,["그 꽁초를 휴지 가득한","쓰레기통에 <b>휙</b> 버리면?"]],
+ [23.2,25.2,["하늘 위에서","<b>불</b>이 날 수 있어요."]],
+ [25.2,28.4,["그래서 <b>미국 항공 규정</b>은 금연이어도","재떨이를 꼭 두게 해요."]],
+ [28.4,29.9,["몇 번 고르셨어요?"]],
+ [29.9,31.5,["기내 재떨이도…"]],
+];
+const SC=[["s1",0,3.2],["s2",3.2,7.2],["s3",7.2,21.2],["s6",21.2,25.2],["s7",25.2,28.4],["s8",28.4,31.5]];
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-cl(x),3);
+const pop=(t,t0,d=.35)=>{const x=cl((t-t0)/d);return x<=0?0:(x<1?1.15*ease(x)-.15*x*x*0:1)};
+let lastCap=-1;
+function renderOld(t){
+  for(const [id,a,b] of SC){const e=$(id);const fi=cl((t-a)/.18),fo=cl((b-t)/.18);e.style.opacity=(t>=a-0.001&&t<b)?Math.min(fi,fo,1):0;}
+  // S1
+  $('p1').style.transform=`scale(${1.05+0.12*cl(t/3.2)})`;
+  const q=pop(t,0.9,.4); $('s1q').style.transform=`scale(${q})`; $('s1q').style.opacity=t<0.9?0:(0.75+0.25*Math.sin(t*9));
+  // S2
+  const t2=t-3.2; $('p2').style.transform=`scale(${1+0.06*cl(t2/4)})`;
+  $('s2r').style.transform=`translateX(${(1-ease(t2/0.45))*560}px)`;
+  $('ring').style.opacity=cl((t2-0.3)/0.2);$('ring').style.transform=`scale(${1+0.08*Math.sin(t2*7)})`;$('s2vs').style.opacity=cl((t2-0.6)/0.2); $('s2vs').style.transform=`scale(${1+0.15*Math.sin(t2*8)})`;
+  // S3
+  const cards=[[ 'c1',8.4],['c2',9.6],['c3',10.8]];
+  for(const [id,t0] of cards){const e=$(id);const x=ease((t-t0)/0.35);e.style.transform=`translateX(${(1-x)*-1100}px)`;}
+  // card1 shake & gray
+  const c1=$('c1'); if(t>12.6&&t<13.4){c1.style.transform=`translateX(${Math.sin(t*60)*16}px)`}
+  c1.style.filter=t>13.4?'grayscale(1) opacity(.55)':'none';
+  const st=$('stamp'); const sx=cl((t-15.0)/0.2); st.style.opacity=t>15.0?1:0; st.style.transform=`rotate(-8deg) scale(${t>15.0?(2.2-1.2*sx):2})`;
+  const c3=$('c3'); const g=t>17.7; c3.style.boxShadow=g?`0 0 0 ${8+6*Math.sin(t*10)}px #fff, 0 12px 0 #141414`:'0 12px 0 #141414';
+  if(g){c3.style.transform=`scale(${1+0.06*ease((t-17.7)/0.3)})`;}
+  $('c2').style.filter=t>17.7?'grayscale(1) opacity(.55)':'none';
+  const an=$('ans'); an.style.opacity=t>17.7?1:0; an.style.transform=`scale(${pop(t,17.7,.35)||0.01})`;
+  // S6
+  const t6=t-21.2; const fy=-200+cl(t6/1.6)*1050; const rot=cl(t6/1.6)*520;
+  $('butt').setAttribute('transform',`translate(${560+Math.sin(t6*3)*40},${fy}) rotate(${rot})`);
+  $('butt').style.opacity=t6<1.7?1:0;
+  const fl=cl((t6-1.9)/0.4); $('flame').setAttribute('transform',`translate(-10,-215) scale(${fl*(1+0.06*Math.sin(t6*14))})`);
+  $('smoke').style.opacity=cl((t6-2.4)/0.5)*0.9;
+  $('warn').style.opacity=t6>2.0?1:0; $('warn').style.transform=`scale(${pop(t,23.2,.3)||0.01})`;
+  // S7
+  const t7=t-25.2; $('regbox').style.transform=`translateY(${(1-ease(t7/0.4))*900}px)`;
+  $('rg').querySelector('mark').style.background=t7>1.4?'#FFD84D':'transparent';
+  $('rf').querySelector('mark').style.background=t7>0.5?'#FFD84D':'transparent';
+  // S8
+  $('p8').style.transform=`scale(${1.17-0.05*cl((t-28.4)/3)})`;
+  $('endq').style.opacity=cl((t-28.5)/0.25); $('endq').style.transform=`scale(${pop(t,28.5,.3)||0.01})`;
+  const el=cl((t-30.6)/0.35); $('endlogo').style.opacity=el; $('endlogo').style.transform=`translateY(${(1-ease(el))*80}px)`;
+  $('wm').style.opacity=(t>=28.4)?0:1;
+  // captions
+  let ci=CAPS.findIndex(c=>t>=c[0]&&t<c[1]);
+  if(ci!==lastCap){lastCap=ci;$('cap').innerHTML=ci<0?'':CAPS[ci][2].map(s=>`<div><span class="l">${s}</span></div>`).join('');}
+  const cap=$('cap'); if(ci>=0){const x=ease((t-CAPS[ci][0])/0.15);cap.style.transform=`translateY(${(1-x)*24}px)`;cap.style.opacity=x;}
+};
+const A=[[0, 0], [0.9, 2.11], [3.2, 3.78], [7.2, 7.1], [8.4, 9.02], [9.6, 10.43], [10.8, 11.9], [12.2, 13.44], [13.4, 16.38], [15.0, 16.77], [17.2, 18.54], [17.7, 18.69], [19.2, 19.9], [21.2, 22.34], [23.2, 24.96], [25.2, 26.69], [28.4, 31.3], [29.9, 32.32], [30.6, 33.41], [31.5, 35.07]];
+function f(n){for(let i=1;i<A.length;i++){if(n<=A[i][1]){const [o0,n0]=A[i-1],[o1,n1]=A[i];return o0+(o1-o0)*(n-n0)/(n1-n0);}}return 31.49;}
+window.render=function(t){renderOld(f(t));};
+window.render(0);
+</script>
+</body></html>
